@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tailwind</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+    <div class="font-sans">
+      <div class="relative min-h-screen flex flex-col sm:justify-center items-center bg-blue-100">
+        <div class="relative sm:max-w-sm w-full">
+          <div class="relative w-full rounded-xl px-7 py-2 bg-gray-100 shadow-xl">
+            <div class="mt-7 text-center">
+              <label for="" class="block mt-4 text-2xl text-gray-700 text-center font-semibold"> Registrate</label>
+            </div>
+            <form action="#" method="#" class="mt-10">
+              <div>
+                <input type="text" placeholder="Nombres" name="name" id="name" class="mt-1 block px-2 w-full border-sm bg-gray-100 h-11 rounded-md shadow-lg hover:bg-blue-50 focus:ring-0">
+              </div>
+              <div class="mt-7">
+                <input type="text" placeholder="Apellido" name="last_name" id="last_name" class="mt-1 px-2 block w-full border-sm bg-gray-100 h-11 rounded-md shadow-lg hover:bg-blue-50 focus:ring-0">
+              </div>
+              <div class="mt-7">
+                <input type="mail" placeholder="Correo Electronico" name="email" id="email" class="mt-1 px-2 block w-full border-sm bg-gray-100 h-11 rounded-md shadow-lg hover:bg-blue-50 focus:ring-0">
+              </div>
+              <div class="mt-7">
+                <input type="password" placeholder="Contraseña" name="pass1" id="pass1" class="mt-1 px-2 block w-full border-sm bg-gray-100 h-11 rounded-md shadow-lg hover:bg-blue-50 focus:ring-0">
+              </div>
+              <div class="mt-7">
+                <input type="password" placeholder="Verifique su contraseña" name="pass1" id="pass1" class="mt-1 px-2 block w-full border-sm bg-gray-100 h-11 rounded-md shadow-lg hover:bg-blue-50 focus:ring-0">
+              </div>
+              <div class="mt-7">
+                <button class="bg-green-500 w-full py-3 rounded-xl text-white shadow-md hover:shadow-inner focus:outline-none transition duration-500 ease-in-out transform gover-translate-x hover:scale-105">
+                  Registrar
+                </button>
+            </div>
+
+            <div class="mt-7">
+              <div class="flex justify-center items-center">
+                  <label class="mr-2" >¿Ya tienes una cuenta?</label>
+                  <a href="#" class=" text-blue-500 transition duration-500 ease-in-out  transform hover:-translate-x hover:scale-105">
+                      Iniciar sesion
+                  </a>
+              </div>
+          </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
